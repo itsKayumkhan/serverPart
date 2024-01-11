@@ -68,6 +68,10 @@ const productSchema = mongoose.Schema({
         type: String,
         required: true,
       },
+      createdAt:{
+        type:Date,
+        default:new Date
+      }
     },
   ],
 
